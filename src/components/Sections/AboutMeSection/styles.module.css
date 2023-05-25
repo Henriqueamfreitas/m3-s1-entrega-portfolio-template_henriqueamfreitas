@@ -7,3 +7,20 @@
 }
 
 /* .p{} */
+
+@media (min-width: 700px) {
+    .section{
+        display: flex;
+        margin-bottom: 6.25rem;
+        justify-content: space-between;
+    }
+
+    .h2{
+        margin-right: 4.375rem;
+        width: fit-content;
+    }
+
+    .p{
+        width: 80%;
+    }
+}
