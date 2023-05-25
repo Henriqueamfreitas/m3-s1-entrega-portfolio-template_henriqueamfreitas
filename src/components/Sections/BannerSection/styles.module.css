@@ -4,6 +4,8 @@
     margin-bottom: 6.8125rem;
 }
 
+/* .container{} */
+
 .username{
     color: var(--color-brand-1);
     margin-bottom: .5625rem;
@@ -19,4 +21,22 @@
 
 .img{
     margin-top: 3.9375rem;
+}
+
+@media (min-width: 700px) {
+    .section{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .h1,.img{
+        margin: 0rem;
+    }
+
+    .h1{
+        margin-bottom: 1.4375rem;
+    }
+
+
+
 }
