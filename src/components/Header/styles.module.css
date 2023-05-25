@@ -33,3 +33,14 @@
     background-color: var(--color-brand-2);
 }
 
+@media (min-width: 700px) {
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .h2, .container{
+        margin-bottom: 0px;    
+    }
+}

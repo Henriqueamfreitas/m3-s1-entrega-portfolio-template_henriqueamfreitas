@@ -1,0 +1,56 @@
+/* header; BANNERSECTION; aboutmesection; TECHSECTION; projectssection; FOOTER */
+/* BEM VINDO AO MEU PROTFÓLIO(BANNERSECTION) */
+.title-1{
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+/* projetos(projectssection); CONTATO(FOOTER)*/
+.title-2{
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+}
+
+/* sobre mim(aboutmesection); TECNOLOGIAS(TECHSECTION) */
+.title-3{
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-3);
+}
+
+/* HTML,CSS(TECHSECTION); projeto1,projeto2(projectssection) */
+.text-1{
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-5);
+}
+
+/* saiba mais(projectssection) */
+.text-2{
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-4);
+}
+
+/* UMA FRASE INTERESSANTE SOBRE MIM(BANNERSECTION); lorem(aboutmesection); descrição do projeto(projectssection); TODOS OS DIREITOS(FOOTER)*/
+.text-3{
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-4);
+    line-height: var(--line-height-4);
+}
+
+/* JOSEDASILVA(BANNERSECTION) */
+.text-4{
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    line-height: var(--line-height-6);
+}
+
+/* sobre,stack,projetos(header); botão(header); BOTÃO(BANNERSECTION); */
+.text-5{
+    font-size: var(--font-size-7);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-7);
+}
