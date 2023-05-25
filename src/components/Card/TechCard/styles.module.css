@@ -12,3 +12,9 @@
 }
 
 /* .p{} */
+
+@media (min-width: 700px) {
+    .li{
+        flex: 1 0 20rem;
+    }
+}
