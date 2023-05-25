@@ -3,9 +3,9 @@ import { BannerSection } from "./components/Sections/BannerSection/index.jsx"
 import { AboutMeSection } from "./components/Sections/AboutMeSection/index.jsx"
 import { TechSection } from "./components/Sections/TechSection/index.jsx"
 import { ProjectSection } from "./components/Sections/ProjectsSection/index.jsx"
+import { Footer } from "./components/Footer/index.jsx"
 
-function App() {
-
+function App(){
   return (
     <>
       <Header></Header>
@@ -13,6 +13,7 @@ function App() {
       <AboutMeSection></AboutMeSection>
       <TechSection></TechSection>
       <ProjectSection></ProjectSection>
+      <Footer></Footer>
     </>
   )
 }
