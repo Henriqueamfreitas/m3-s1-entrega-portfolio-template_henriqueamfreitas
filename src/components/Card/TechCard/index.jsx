@@ -1,3 +1,4 @@
+
 export function TechCard( {tecName, tecIcon } ){
     return(
         <div>

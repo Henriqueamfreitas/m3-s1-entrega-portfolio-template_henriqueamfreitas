@@ -1,0 +1,12 @@
+.button{
+    padding: .6875rem 1.875rem .6875rem 1.875rem;
+    border-radius: .75rem;
+    border: none;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-3);
+}
+
+.button:hover{
+    background-color: var(--color-brand-2);
+}
+
