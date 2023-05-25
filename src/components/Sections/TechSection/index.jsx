@@ -1,8 +1,5 @@
 import { TechCard } from "../../Card/TechCard/index.jsx"
 import {technologies} from "../../../data/technologies.js" 
-console.log(technologies)
-
-import htmlIconTest from "../../../assets/html-icon.png" 
 
 export function TechSection(){
     return(

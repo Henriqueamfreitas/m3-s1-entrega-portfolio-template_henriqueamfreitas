@@ -5,6 +5,8 @@ import { TechSection } from "./components/Sections/TechSection/index.jsx"
 import { ProjectSection } from "./components/Sections/ProjectsSection/index.jsx"
 import { Footer } from "./components/Footer/index.jsx"
 
+import "./styles/reset.css"
+
 function App(){
   return (
     <>
