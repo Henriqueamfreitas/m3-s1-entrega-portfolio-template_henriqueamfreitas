@@ -1,0 +1,27 @@
+.footer{
+    padding: 3rem 3rem 3.1875rem 3.0625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--color-grey-3);
+    border-bottom: 1px solid var(--color-grey-3);
+}
+
+.h2{
+    margin-bottom: 1.2694rem;
+}
+
+.container{
+    display: flex;
+    gap: .9375rem;
+    margin-bottom: 2.2731rem;
+}
+
+/* .img{} */
+
+.p{
+    /* margin-bottom: ; */
+    text-align: center;
+}
+
