@@ -1,5 +1,6 @@
 import { projects } from "../../../data/projects.js"
 import githubIcon  from "../../../assets/github-icon.png"
+import { Button } from "../../Button/index.jsx"
 
 
 export function ProjectCard( {projectName, projectDecription } ){
@@ -13,7 +14,7 @@ export function ProjectCard( {projectName, projectDecription } ){
                 />
             </div>
                 <p>{projectDecription}</p>
-                <button>Saiba mais</button>
+                <Button text={'Saiba mais'}></Button>
         </div>
     )
 }

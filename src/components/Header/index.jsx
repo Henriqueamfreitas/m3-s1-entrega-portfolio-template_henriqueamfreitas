@@ -1,3 +1,5 @@
+import { Button } from "../Button"
+
 export function Header(){
     return(
         <header>
@@ -7,7 +9,7 @@ export function Header(){
                 <p>Stack</p>
                 <p>Projetos</p>
             </div>
-            <button>Contato</button>
+            <Button text={'Contato'}></Button>
         </header>
     )
 }
