@@ -1,0 +1,21 @@
+:root{
+    --color-grey-1: #0C0C0C;
+    --color-grey-2: #FFFFFF80;
+    --color-grey-3: #ffffff;
+
+    --color-brand-1: #6880FF;
+    --color-brand-2: #7C91FF;
+}
+
+body {
+    background: var(--color-grey-1);
+    color: var(--color-grey-3);
+    -webkit-font-smoothing: antialiased;
+  
+    overflow-x: hidden;
+    padding: 1.375rem 1.8125rem 2.25rem 1.8125rem;
+}
+
+button{
+    cursor: pointer;
+}
