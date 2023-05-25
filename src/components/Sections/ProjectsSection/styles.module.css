@@ -1,0 +1,13 @@
+.section{
+    margin-bottom: 2.6875rem;
+}
+
+.h2{
+    margin-bottom: 1.8125rem;
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
