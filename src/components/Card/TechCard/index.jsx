@@ -1,12 +1,14 @@
+import styles from "../TechCard/styles.module.css"
 
 export function TechCard( {tecName, tecIcon } ){
     return(
-        <div>
+        <li className={styles.li}>
             <img 
+                className={styles.img}
                 src={tecIcon} 
                 alt="ícone da tecnologia em questão" 
             />
-            <p>{tecName}</p>
-        </div>
+            <p className={styles.p}>{tecName}</p>
+        </li>
     )
 }
