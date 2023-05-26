@@ -20,7 +20,10 @@
     justify-content: center;
 }
 
-/* .img{} */
+.img{
+    width: 37px;
+    height: 35.89px;
+}
 
 .p{
     margin-bottom: 2rem;

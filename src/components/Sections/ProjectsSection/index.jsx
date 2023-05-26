@@ -6,7 +6,7 @@ import styles from "../ProjectsSection/styles.module.css"
 export function ProjectSection(){
     return(
         <section className={styles.section}>
-            <h2 className={styles.h2}>Projetos</h2>
+            <h2 className={`${styles.h2} title-2`}>Projetos</h2>
             <ul className={styles.ul}>
                 <ProjectCard projectName={projects[0].name} projectDecription={projects[0].descricao}></ProjectCard>
                 <ProjectCard projectName={projects[1].name} projectDecription={projects[1].descricao}></ProjectCard>

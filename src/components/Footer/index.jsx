@@ -7,7 +7,7 @@ export function Footer(){
     return(
         <footer className={styles.footer}>
             <div>
-                <h2 className={styles.h2}>Contato</h2>
+                <h2 className={`${styles.h2} title-2`}>Contato</h2>
                 <div className={styles.container}>
                     <img
                         className={styles.img} 
@@ -26,7 +26,7 @@ export function Footer(){
                     />
                 </div>
             </div>
-            <p className={styles.p}> Todos os direitos reservados - José da Silva</p>
+            <p className={`${styles.p} text-3`}> Todos os direitos reservados - José da Silva</p>
         </footer>
     )
 }

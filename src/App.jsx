@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer/index.jsx"
 
 import "./styles/reset.css"
 import "./styles/globalStyles.css"
+import './styles/text.css'
 
 function App(){
   return (

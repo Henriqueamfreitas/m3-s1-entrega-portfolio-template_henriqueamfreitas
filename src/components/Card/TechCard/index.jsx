@@ -8,7 +8,7 @@ export function TechCard( {tecName, tecIcon } ){
                 src={tecIcon} 
                 alt="ícone da tecnologia em questão" 
             />
-            <p className={styles.p}>{tecName}</p>
+            <p className={`${styles.p} text-1`}>{tecName}</p>
         </li>
     )
 }

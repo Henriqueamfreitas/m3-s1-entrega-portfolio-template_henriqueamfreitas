@@ -9,6 +9,7 @@
 .username{
     color: var(--color-brand-1);
     margin-bottom: .5625rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .h1{
