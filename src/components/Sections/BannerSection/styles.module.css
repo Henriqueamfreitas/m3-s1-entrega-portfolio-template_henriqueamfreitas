@@ -24,7 +24,7 @@
     margin-top: 3.9375rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 43.75rem) {
     .section{
         flex-direction: row;
         justify-content: space-between;

@@ -1,7 +1,7 @@
-import { username } from "../../../data/user";
-import banner  from "../../../assets/banner-img.png"
-import { Button } from "../../Button";
-import styles from "../BannerSection/styles.module.css"
+import { username } from '../../../data/user';
+import banner  from '../../../assets/banner-img.png'
+import { Button } from '../../Button';
+import styles from '../BannerSection/styles.module.css'
 
 export function BannerSection(){
     return(
@@ -15,7 +15,7 @@ export function BannerSection(){
             <img 
                 className={styles.img} 
                 src={banner}
-                alt="Banner" 
+                alt='Banner' 
             />
         </section>
     )

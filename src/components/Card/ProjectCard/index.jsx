@@ -1,7 +1,5 @@
-import { projects } from "../../../data/projects.js"
-import githubIcon  from "../../../assets/github-icon.png"
-import { Button } from "../../Button/index.jsx"
-import styles from "../ProjectCard/styles.module.css"
+import githubIcon  from '../../../assets/github-icon.png'
+import styles from '../ProjectCard/styles.module.css'
 
 export function ProjectCard( {projectName, projectDecription } ){
     return(
@@ -11,11 +9,11 @@ export function ProjectCard( {projectName, projectDecription } ){
                 <img 
                     className={styles.img}
                     src={githubIcon}
-                    alt="Ícone github " 
+                    alt='Ícone github ' 
                 />
             </div>
             <p className={`${styles.p} text-3`}>{projectDecription}</p>
-            <a className={`${styles.a} text-2`} href="">Saiba mais</a>
+            <a className={`${styles.a} text-2`} href=''>Saiba mais</a>
         </li>
     )
 }

@@ -1,4 +1,4 @@
-import styles from "../TechCard/styles.module.css"
+import styles from '../TechCard/styles.module.css'
 
 export function TechCard( {tecName, tecIcon } ){
     return(
@@ -6,7 +6,7 @@ export function TechCard( {tecName, tecIcon } ){
             <img 
                 className={styles.img}
                 src={tecIcon} 
-                alt="ícone da tecnologia em questão" 
+                alt='ícone da tecnologia em questão' 
             />
             <p className={`${styles.p} text-1`}>{tecName}</p>
         </li>

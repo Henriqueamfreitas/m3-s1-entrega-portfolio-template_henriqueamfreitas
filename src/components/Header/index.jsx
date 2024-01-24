@@ -1,5 +1,5 @@
-import styles from "../Header/styles.module.css"
-import { Button } from "../Button"
+import styles from '../Header/styles.module.css'
+import { Button } from '../Button'
 
 export function Header(){
     return(

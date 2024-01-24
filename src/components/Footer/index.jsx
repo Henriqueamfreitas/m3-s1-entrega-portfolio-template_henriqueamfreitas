@@ -1,7 +1,7 @@
-import wppIcon from "../../assets/whatsapp-icon.png"
-import linkedinIcon from "../../assets/linkedin-icon.png"
-import githubIcon from "../../assets/github-icon.png"
-import styles from "../Footer/styles.module.css"
+import wppIcon from '../../assets/whatsapp-icon.png'
+import linkedinIcon from '../../assets/linkedin-icon.png'
+import githubIcon from '../../assets/github-icon.png'
+import styles from '../Footer/styles.module.css'
 
 export function Footer(){
     return(
@@ -12,17 +12,17 @@ export function Footer(){
                     <img
                         className={styles.img} 
                         src={wppIcon} 
-                        alt="Ícone Whatsapp" 
+                        alt='Ícone Whatsapp' 
                     />
                     <img 
                         className={styles.img} 
                         src={linkedinIcon} 
-                        alt="Ícone Linkedin" 
+                        alt='Ícone Linkedin' 
                     />
                     <img 
                         className={styles.img} 
                         src={githubIcon} 
-                        alt="Ícone Github" 
+                        alt='Ícone Github' 
                     />
                 </div>
             </div>

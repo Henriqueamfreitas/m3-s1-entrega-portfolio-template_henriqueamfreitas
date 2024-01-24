@@ -3,7 +3,7 @@
     flex-direction: column;
     flex: 1 0 13.7rem;
     justify-content: center;
-    border: 1px solid var(--color-grey-3);
+    border: .0625rem solid var(--color-grey-3);
     border-radius: 1.5625rem;
     padding: 1rem 1rem 1.25rem 2.0625rem;
 }
@@ -34,7 +34,7 @@
     text-decoration: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 43.75rem) {
     .li{
         flex: 1 0 20rem;
     }

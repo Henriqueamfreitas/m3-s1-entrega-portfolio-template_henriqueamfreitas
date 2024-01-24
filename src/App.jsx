@@ -1,12 +1,12 @@
-import { Header } from "./components/Header/index.jsx"
-import { BannerSection } from "./components/Sections/BannerSection/index.jsx"
-import { AboutMeSection } from "./components/Sections/AboutMeSection/index.jsx"
-import { TechSection } from "./components/Sections/TechSection/index.jsx"
-import { ProjectSection } from "./components/Sections/ProjectsSection/index.jsx"
-import { Footer } from "./components/Footer/index.jsx"
+import { Header } from './components/Header/index.jsx'
+import { BannerSection } from './components/Sections/BannerSection/index.jsx'
+import { AboutMeSection } from './components/Sections/AboutMeSection/index.jsx'
+import { TechSection } from './components/Sections/TechSection/index.jsx'
+import { ProjectSection } from './components/Sections/ProjectsSection/index.jsx'
+import { Footer } from './components/Footer/index.jsx'
 
-import "./styles/reset.css"
-import "./styles/globalStyles.css"
+import './styles/reset.css'
+import './styles/globalStyles.css'
 import './styles/text.css'
 
 function App(){

@@ -1,4 +1,4 @@
-import styles from "../Header/styles.module.css"
+import styles from '../Header/styles.module.css'
 
 
 export function Button( {text} ){
